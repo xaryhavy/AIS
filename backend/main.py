@@ -1,7 +1,13 @@
-print("Hello, my name is Fabian.")
+from agents.discovery_agent import run_discovery
 
-print("I am building AIS.")
+print("===================================")
+print("          AIS")
+print("Business Intelligence Assistant")
+print("===================================")
 
-print("AIS will help businesses make better decisions.")
+business_context = run_discovery()
 
-print("Today I wrote my first Python program.")
+print()
+print("Business Context Returned")
+
+print(business_context)
