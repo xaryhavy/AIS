@@ -1,13 +1,12 @@
-from agents.discovery_agent import run_discovery
+from agents.orchestrator import run_orchestrator
 
 print("===================================")
 print("          AIS")
 print("Business Intelligence Assistant")
 print("===================================")
 
-business_context = run_discovery()
+business_context = run_orchestrator()
 
 print()
-print("Business Context Returned")
-
+print("Returned Context")
 print(business_context)
