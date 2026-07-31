@@ -1,13 +1,19 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Virtual environments
+# Virtual Environments
 venv/
-.env
+.env/
 
-# VS Code
+# IDE
 .vscode/
+.idea/
 
-# macOS
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
