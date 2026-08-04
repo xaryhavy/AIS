@@ -1,6 +1,7 @@
 # Long-term memory
 
 business_history = {}
+
 business_memory = {
 
     "profile": {},
